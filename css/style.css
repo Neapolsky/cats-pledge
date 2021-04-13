@@ -1,0 +1,230 @@
+@font-face{
+    font-family: "DancingScript";
+    src: url(../fonts/DancingScript-VariableFont_wght.ttf);
+}
+/*Обнуление*/
+*{
+	padding: 0;
+	margin: 0;
+	border: 0;
+}
+*,*:before,*:after{
+	-moz-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	box-sizing: border-box;
+}
+:focus,:active{outline: none;}
+a:focus,a:active{outline: none;}
+
+nav,footer,header,aside{display: block;}
+
+html,body{
+	height: 100%;
+	width: 100%;
+	font-size: 100%;
+	line-height: 1;
+	font-size: 14px;
+	-ms-text-size-adjust: 100%;
+	-moz-text-size-adjust: 100%;
+	-webkit-text-size-adjust: 100%;
+}
+input,button,textarea{font-family:inherit;}
+
+input::-ms-clear{display: none;}
+button{cursor: pointer;}
+button::-moz-focus-inner {padding:0;border:0;}
+a, a:visited{text-decoration: none;}
+a:hover{text-decoration: none;}
+ul li{list-style: none;}
+img{vertical-align: top;}
+
+h1,h2,h3,h4,h5,h6{font-size:inherit;font-weight: 400;}
+/*---------Спецификация-----------*/
+
+.container{
+    width: 1140px;
+    margin: 0 auto;
+}
+/*-Header-*/
+.header{
+    text-align: center;
+    padding-top: 20px ;
+    padding-bottom: 201px;
+    margin: 10px auto;
+    
+}
+.header__title{
+    font-family: Tahoma;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 48px;
+    line-height: 58px;
+    margin: 10px auto;
+}
+.header__text{
+    font-family: Tahoma;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 20px;
+    width: 560px;
+    margin: 10px auto;
+    letter-spacing: 0.02em;
+}
+.order-site{
+    background: #F5CE00;
+}
+.order-site:hover{
+    background:#f0c802;
+    transition: all 0.2s;
+}
+.order-site:active{
+    box-shadow: 0 0 5px 1px #2e5b63 inset;
+    transition: all 0.2s;
+}
+.learn-more{
+    background-color: #ffffff;
+}
+.learn-more:hover{
+    background: rgb(247, 247, 247);
+    transition: all 0.2s;
+}
+.learn-more:active{
+    box-shadow: 0 0 5px 1px #2e5b63 inset;
+    transition: all 0.2s;
+    
+}
+.header__btn{
+    border: 1px solid #F5CE00;
+    box-sizing: border-box;
+    border-radius: 5px;
+    padding: 20px 30px;
+    font-family: Tahoma;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 20px;
+    color: black;
+    margin: 25px 10px;
+    display: inline-block;
+}
+.serveces{
+    text-align: center;
+    background: #F3F3F3;
+    padding: 70px 0;
+}
+.serveces__item, .serveces__item2{
+    display: inline-block;
+    width: 325px;
+    margin: 19px 0 ;
+} 
+.serveces__row {
+    display: flex;
+    justify-content: space-between;
+} 
+.serveces__title{
+    font-family: Tahoma;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 43px;
+    margin: 0 0 70px 0;
+}
+h3{
+    font-family: Tahoma;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 22px;
+    line-height: 27px;
+}
+.serveces-kart__title{
+    margin: 28px 0 18px 0;
+}
+.serveces-kart__text{
+    font-family: Tahoma;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 17px;
+}
+.our-project{
+    font-family: Tahoma;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 24px;
+    text-decoration-line: underline;
+    color: black;
+}
+.superiority{
+    background-color:#E3E1E1;
+    padding: 79px 0 87px 0;
+}
+.superiority__elements{
+    text-align: center;
+}
+.superiority__list{
+    display: inline-block;
+    text-align: left;
+    margin: 42px 0 0 0 ;
+}
+.superiority__item{
+    margin: 0 0 25px 0;
+}
+.superiority__title{
+    font-family: Tahoma;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 43px;
+    text-align: center;
+    margin: 0 0 46px 0 ;
+}      
+.superiority-kart__number{
+    font-family: Tahoma;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 36px;
+    line-height: 43px;
+}
+.superiority-kart__title{
+    display: inline-block;
+    margin: 0 0 0 10px;
+}
+.superiority-kart__text{
+    font-family: "DancingScript";
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 17px;
+    width: 250px;
+    margin: 23px 0 0 61px;
+}
+.superiority__img{
+    box-shadow: 4px 4px 10px    rgba(103, 103, 103, 0.8);
+    border-radius: 15px;
+    margin: 0 72px;
+}
+.footer{
+    background-color: #413939;
+    text-align: center;
+}
+.footer__text{
+    display: inline-block;
+    color: #ffffff;
+    font-family: Tahoma;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 14px;
+    margin: 90px 0;
+}
+.fa-paw{
+    font-size: 14px;
+}
+.fa-comments-dollar{
+    font-size: 17px;
+}
+.footer__img{
+    margin: 71px 195px ;
+}
